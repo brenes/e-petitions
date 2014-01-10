@@ -1,0 +1,5 @@
+ENV['CAPTCHA_USERNAME'] = 'demo'
+ENV['CAPTCHA_SECRET'] = 'secret'
+
+ENV['ADMIN_PASS'] = 'Admin123*'
+

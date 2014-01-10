@@ -12,6 +12,9 @@ You will need `ruby 1.8.7`
 
 You will need to set up the `database.yml`
 You will need to run `seeds.rb` to seed the 'department' data required for moderation of petitions
+You will need to set the ENV vars from env_vars initializer (`config/initializers/env_vars.rb.example`) by copying it to `config/initializers/env_vars.rb` and setting your own values.
+Remember that if you use Heroku you must set those ENV variables in Heroku.
+
 
 For setting up a sysadmin user, run `rake epets:add_sysadmin_user` - the password must contain a mix of upper and lower case letters, numbers and special characters.
 
