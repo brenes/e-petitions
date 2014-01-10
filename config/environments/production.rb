@@ -25,7 +25,7 @@ Epets::Application.configure do
   # config.logger = SyslogLogger.new
 
   # Use a different cache store in production
-  config.cache_store = :mem_cache_store, AppConfig.memcached_servers, { :namespace => AppConfig.memcached_namespace }
+  # config.cache_store = :mem_cache_store, AppConfig.memcached_servers, { :namespace => AppConfig.memcached_namespace }
 
   # Disable Rails's static asset server
   # In production, Apache or nginx will already do this

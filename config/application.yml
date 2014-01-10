@@ -7,11 +7,15 @@ defaults: &defaults
 development:
   <<: *defaults
   host_for_email: "localhost:3000"
-  
+
 development_with_caching:
   <<: *defaults
   host_for_email: "localhost:3000"
-  
+
 test:
   <<: *defaults
   host_for_email: "www.example.com"
+
+production:
+  <<: *defaults
+  host_for_email: "localhost:3000"
