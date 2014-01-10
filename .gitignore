@@ -5,6 +5,7 @@ db/*.sqlite3
 log/*
 tmp/
 config/database.yml
+config/initializers/env_vars.rb
 public/cucumber
 public/index.html
 public/javascripts/all.js
