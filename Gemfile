@@ -1,4 +1,6 @@
-source :rubygems
+source "https://rubygems.org"
+
+ruby '1.8.7'
 
 gem 'rails', '3.0.12'
 
@@ -6,7 +8,7 @@ gem 'rails', '3.0.12'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'rake', '0.8.7'
-gem 'mysql', '2.8.1'
+gem 'pg'
 gem 'authlogic', '3.0.3'
 gem "will_paginate", "~> 3.0.pre2"
 gem 'sunspot_rails', '~> 1.2.1'
@@ -42,7 +44,7 @@ group :test do
   gem 'database_cleaner'
   gem 'capybara', '~> 1.1.2'
   gem 'selenium-webdriver', '~> 2.5.0'
-  gem 'factory_girl_rails'
+  # gem 'factory_girl_rails'
   gem 'be_valid_asset', :git => 'git://github.com/unboxed/be_valid_asset.git'
   gem 'email_spec', :git => 'git://github.com/bmabey/email-spec.git'
   gem 'chronic', :git => "git://github.com/mojombo/chronic.git"
