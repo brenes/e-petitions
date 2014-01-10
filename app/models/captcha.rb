@@ -1,8 +1,8 @@
 require 'digest/md5'
 
 class Captcha
-  USERNAME = 'xxxxx'
-  SECRET   = 'xxxxx'
+  USERNAME = ENV['CAPTCHA_USERNAME']
+  SECRET   = ENV['CAPTCHA_SECRET']
   ALPHABET = 'abcdefghijklmnopqrstuvwxyz1234567890'
   CHARACTER_COUNT = 6
 
